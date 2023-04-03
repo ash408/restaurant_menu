@@ -1,0 +1,23 @@
+MENU ITEM
+=========
+
+- fields
+	description		String
+	price			double
+	category		String
+	dateAdded		Date
+	name			String
+	isAvailable		boolean
+	isVegan			boolean
+	allergens		ArrayList<String>
+	spiceLevel		int
+	proteinType		String
+
+
+MENU
+====
+
+- fields
+	lastUpdate		Date
+	items			ArrayList<MenuItem>
+	mostRecent		MenuItem
