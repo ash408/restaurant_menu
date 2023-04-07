@@ -2,16 +2,21 @@ MENU ITEM
 =========
 
 - fields
+	id				UUID
 	description		String
 	price			double
 	category		String
-	dateAdded		Date
+	dateAdded		LocalDate
 	name			String
 	isAvailable		boolean
 	isVegan			boolean
 	allergens		ArrayList<String>
 	spiceLevel		int
 	proteinType		String
+
+- methods
+	toString
+	equals
 
 
 MENU
@@ -21,3 +26,10 @@ MENU
 	lastUpdate		Date
 	items			ArrayList<MenuItem>
 	mostRecent		MenuItem
+
+- methods
+	addItem
+	removeItem
+	isNew
+	printItem
+	printAll
